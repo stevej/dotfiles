@@ -11,4 +11,4 @@ export LESSCHARSET=utf-8
 
 export PATH="$HOME/bin:$PATH"
 
-PS1="%n@%m %1~ %#"
+PS1="%n@%m %1~ %# "
