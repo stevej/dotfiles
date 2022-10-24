@@ -11,4 +11,6 @@ export LESSCHARSET=utf-8
 
 export PATH="$HOME/bin:$PATH"
 
+[[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
+
 PS1="%n@%m %1~ %# "
