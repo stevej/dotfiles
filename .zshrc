@@ -12,7 +12,7 @@ export LESSCHARSET=utf-8
 export PATH="$HOME/bin:$PATH"
 
 alias k=kubectl
-alias docker_logs="docker logs k3d-l5d-server-0"
+alias docker_logs="docker logs -f k3d-l5d-server-0"
 [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
 
 PS1="%n@%m %1~ %# "
