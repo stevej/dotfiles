@@ -11,6 +11,8 @@ export LESSCHARSET=utf-8
 
 export PATH="$HOME/bin:$PATH"
 
+alias k=kubectl
+
 [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
 
 PS1="%n@%m %1~ %# "
